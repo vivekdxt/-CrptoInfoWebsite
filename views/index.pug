@@ -1,0 +1,64 @@
+doctype html
+html
+	head
+		title KnowCrypto
+		style
+			include ../static/style.css
+	body
+		nav#navbar
+			ul
+				div#logo
+					img(src="/static/rsz_2logo.png")
+					| KC
+				li #[a(href="/") Home]
+				li #[a(href="/") About]
+				li #[a(href="/") Services]
+				li #[a(href="/") Class Info]
+				li #[a(href="/contact") Contact Us]
+
+		section#introsection
+			div  
+				strong Welcome to KnowCrpto  
+			var.small  Bitcoin will do to banks what email did to the postal industry
+				p – Rick Falkvinge 
+
+
+		section#infosection2
+			h2  What is cryptocurrency ?
+			p A cryptocurrency, crypto currency or crypto is a digital asset designed to work as a medium of exchange wherein individual coin ownership records are stored in a ledger existing in a form of computerized database using strong cryptography to secure transaction records, to control the creation of additional coins, and to verify the transfer of coin ownership.It typically does not exist in physical form (like paper money) and is typically not issued by a central authority. Cryptocurrencies typically use decentralized control as opposed to centralized digital currency and central banking systems. When a cryptocurrency is minted or created prior to issuance or issued by a single issuer, it is generally considered centralized. When implemented with decentralized control, each cryptocurrency works through distributed ledger technology, typically a blockchain, that serves as a public financial transaction database.
+
+		section#infosection
+			h2  Types of cryptocurrency.
+			div.card
+				h3 Bitcoin 
+				div.card-box
+					div.card-img
+						img(src="/static/1.png" alt="")
+					div.card-content
+						p Bitcoin is a cryptocurrency invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto	
+			div.card
+				h3 Ethereum
+				div.card-box
+					div.card-img
+						img(src="/static/2.png" alt="")
+					div.card-content
+						p Ethereum is not just a platform but also a programming language (Turing complete) running on a blockchain, helping developers to build and publish distributed applications. 
+
+			div.card
+				h3 Litecoin
+				div.card-box
+					div.card-img1
+						img(src="/static/3.png" alt="")
+					div.card-content
+						p The main difference between Bitcoin and Litecoin is that Litecoin has a larger amount of coins that can be created and it has faster transaction rates. 
+
+
+
+
+		footer#footer
+			| Copyright © 2021 
+			|#[a(href="https://in.linkedin.com/in/vivekdxt") Vivek Dixit]
+			|| All Rights Reserved
+
+		script 
+			include ../static/index.js 
